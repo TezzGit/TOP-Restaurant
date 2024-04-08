@@ -5,6 +5,10 @@ module.exports = {
     mode: 'development',
     entry: './src/index.js',
     devtool: 'inline-source-map',
+    watchOptions: {
+        aggregateTimeout: 200,
+        poll: 1000,
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',
