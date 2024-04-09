@@ -2,7 +2,8 @@ import './style.css';
 import Home from "./home";
 import Menu from "./menu";
 import About from "./about";
-import logo from "./SliceofLifeLogobyDesigner.png"
+import logo from "./SliceofLifeLogobyDesigner.png";
+
 
 const headerDiv = document.querySelector('header');
 const myLogo = new Image();

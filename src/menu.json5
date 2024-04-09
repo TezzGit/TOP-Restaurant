@@ -1,0 +1,125 @@
+{
+  title: "Menu",
+  content: [
+    {
+      heading: "Entrees",
+      items: [
+        {
+          name: "Garlic Knots",
+          desc: "Warm, soft knots of dough brushed with garlic-infused olive oil and sprinkled with Paremsan Cheese.",
+          price: "$5.99",
+        },
+        {
+          name: "Mozzarella Stick",
+          desc: "Crispy on the outside, gooey on the inside. Served with marinara sauce for dipped.",
+          price: "$6.99",
+        },
+        {
+          name: "Buffalo Wings",
+          desc: "6 Pieces of rispy chicken wings tossed in your choice of mild, medium, hot or extra hot buffalo sauce. Served with celery sticks and blue cheese dressing.",
+          price: "$8.99",
+        },
+      ],
+    },
+    {
+      heading: "Salads",
+      items: [
+        {
+          name: "Classic Caesar Salad",
+          desc: "Crisp romaine lettuce, Parmesan cheese, crunchy croutons, and Caesar dressing.",
+          price: "$8.99",
+        },
+        {
+          name: "Garden Salad",
+          desc: "Fresh mixed greens, tomatoes, cucumbers, carrots, red onions, and your choice of dressing.",
+          price: "$7.99",
+        },
+      ],
+    },
+    {
+      heading: "Traditional Pizzas",
+      items: [
+        {
+          name: "Plain Cheese",
+          desc: "Classic New York with Melted Mozzarella cheese and tangy tomato sauce on our signature thin crust.",
+          price: "$12.99",
+        },
+        {
+          name: "Pepperoni",
+          desc: "Generously topped with slices of spicy pepperoni and melted mozzarella cheese.",
+          price: "$14.99",
+        },
+        {
+          name: "Supreme",
+          desc: "A hearty combination of pepperoni, sausage, green peppers, onions, mushrooms, and black olives.",
+          price: "$14.99",
+        },
+        {
+          name: "White Pizza",
+          desc: "A delicious blend of ricotta, mozzarella, Parmesan, garlic, and olive oil - no tomato sauce.",
+          price: "$14.99",
+        },
+      ],
+    },
+    {
+      heading: "Specialty Pies",
+      items: [
+        {
+          name: "The Brooklyn Bridge",
+          desc: "Pepperoni, Italian sausage, mushrooms, green peppers, onions, and black olives.",
+          price: "$19.99",
+        },
+        {
+          name: "The Greensward Gastronomy",
+          desc: "Spinach, sun-dried tomatoes, feta cheese, black olives, and roasted garlic.",
+          price: "$19.99",
+        },
+        {
+          name: "Times Square Tango",
+          desc: "BBQ chicken, red onions, cilantro, and a drizzle of tangy BBQ sauce.",
+          price: "$19.99",
+        },
+        {
+          name: "Empire State of Mind",
+          desc: "Prosciutto, arugula, shaved Parmesan, and balsamic glaze.",
+          price: "$19.99",
+        },
+      ],
+    },
+    {
+      heading: "Beverages",
+      items: [
+        {
+          name: "Sodas",
+          desc: "Coke, Diet Coke, Sprite, Root Beer, Lemonade",
+          price: "$2.99",
+        },
+        {
+          name: "Bottled Water",
+          desc: "",
+          price: "$2.50",
+        },
+        {
+          name: "Iced Tea",
+          desc: "Straight from the South",
+          price: "$3.99",
+        },
+      ],
+    },
+    {
+      heading: "Desserts",
+      items: [
+        {
+          name: "New York Cheesecake",
+          desc: "Creamy and rich, served with a choice of raspberry or strawberry sauce.",
+          price: "$4.99",
+        },
+        {
+          name: "Cannoli",
+          desc: "Crisp pastry shells filled with sweetned ricotta cheese and chocolate chips.",
+          price: "$3.99",
+        },
+      ],
+    },
+  ],
+}

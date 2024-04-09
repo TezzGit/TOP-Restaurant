@@ -1,3 +1,5 @@
+import menuData from "./menu.json5";
+
 function Menu() {
 
     const homeBtn = document.querySelector(".home");
