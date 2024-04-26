@@ -1,3 +1,5 @@
+import aboutData from "./about.json5"
+
 function About() {
 
     const homeBtn = document.querySelector(".home");

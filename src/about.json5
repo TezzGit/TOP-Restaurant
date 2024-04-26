@@ -1,0 +1,23 @@
+{
+  title: "About Us",
+  content: {
+    about: "Welcome to Slice of Life, where every bite tells a store! Established in 2024 by the visionary Loui, Slice of Life brings the heart and soul of New York-style pizza to Sydney. \n \nAt Slice of Life, we're not just serving pizzas, we're crafting culinary experiences. Our passion for authentic flavours and dedication to quality ingredients shines through in every slice we serve. From the crisp, thin crust to the bubbling cheese and robust tomato sauce, each bite is a celebration of tradition and taste. \n \nBut Slice of Life is more than just a pizzeria; it's a gathering place for friends, families and pizza aficianodos alike. Step into our welcoming atmosphere and feel the energy of New York City right here in Sydney. Whether you're grabbing a quick slice on the go or settling in for a leisurely meal, our friendly staff and cozy ambiance ensure every visit is memorable.\n\nJoin us at Slice of Life and experience the magic of New York-style pizza like never before. Because here, every slice is a taste of life itself.",
+    loc_info: [
+      {
+        loc_name: "Sydney",
+        loc_add: "43 Darling St, Bakersfield, Sydney, Australia",
+        loc_phone: "02-XXXX-XXXX",
+        loc_email: "Sydney@SliceOfLife.com.au",
+        trading: [
+          { day: "Sunday", hours: "5pm - 9pm" },
+          { day: "Monday", hours: "5pm - 9pm" },
+          { day: "Tuesday", hours: "5pm - 9pm" },
+          { day: "Wednesday", hours: "5pm - 9pm" },
+          { day: "Thursday", hours: "5pm - 10pm" },
+          { day: "Friday", hours: "5pm - 1am" },
+          { day: "Saturday", hours: "5pm - 12am" },
+        ],
+      },
+    ],
+  },
+}
