@@ -7,8 +7,8 @@ body {
     margin: 0px;
     display: grid;
     grid-template-rows: 80px 1fr;
-    height: 100vh;
     background-color: #dadcdb;
+    height: 100vh;
 }
 
 header {
@@ -16,15 +16,14 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    box-shadow: 0px 1px 2px 2px grey;
+    box-shadow: 0px 2px 2px 0px grey;
     z-index: 1;
 }
 
 .logo {
-    width: 60px;
     order: -2;
     justify-self: start;
-    margin-left: 10px;
+    width: 80px;
 }
 
 h1 {
@@ -32,29 +31,30 @@ h1 {
     margin: 0px;
     padding: 0px;
     font-family: "Just Another Hand";
-    transform: scale(2, 1);
     font-size: 3em;
     margin-top: 10px;
+    transform: scale(2, 1);
 }
 
 nav {
     justify-self: end;
     grid-column: 3/4;
-    margin-right: 10px;
-    gap: 16px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+    padding-right: 20px;
+    gap: 50px;
 }
 
 .nav-btn {
     border: none;
     background-color: transparent;
     font-family: inherit;
-    padding-right: 20px;
     cursor: pointer;
     font-size: 1.2em;
     font-family: "Just Another Hand";
     transform: scale(2, 1);
+    width: 50px;
 }
 
 .nav-btn:hover:enabled {
@@ -69,12 +69,63 @@ nav {
     display: grid;
     grid-template-columns: 1fr 800px 1fr;
     background-color: #3c5969;
+    background-position: center;
 
 }
 
 .main-content {
     grid-column: 2/3;
-    background-color: #bfd7ea;
+    background-color: rgba(191, 215, 234, 0.74);
     padding: 20px;
     box-shadow: 2px 0 3px -1px lightgrey, -2px 0 3px -1px lightgrey;
+}
+
+.home-content {
+    display: grid;
+    gap: 16px;
+    grid-template-rows: 1fr 3fr;
+}
+
+.mission-statement {
+    justify-self: center;
+    font-style: italic;
+    font-size: 1.1em;
+    align-self: center;
+}
+
+.special-div {
+    display: grid;
+    gap: 8px;
+}
+
+.specials-title {
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.special {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    align-items: center;
+}
+
+.special-title {
+    font-weight: bold;
+    grid-column: 1/2;
+    font-size: 1.1em;
+}
+
+.special-desc {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    align-self: flex-start;
+}
+
+.special-price {
+    grid-column: 2/3;
+    justify-self: flex-end;
 }

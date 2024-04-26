@@ -18,6 +18,7 @@ function Menu() {
     // Div Menu Will Utilise
     const mainContent = document.createElement("div");
     mainContent.classList.add('main-content');
+    mainContent.classList.add('menu-content');
     // Heading
     const contentHeading = document.createElement("h2");
     contentHeading.innerHTML = `${menuData.title}`;
@@ -26,12 +27,15 @@ function Menu() {
     const jsonContent = menuData.content;
 
     for (let iter = 0; iter < jsonContent.length; iter++) {
+        
+        const sectionDiv = document.createElement('div');
+        sectionDiv.classList.add('section');
 
         // Add Menu Section Heading
         const subHeadingDiv = document.createElement("h3");
         subHeadingDiv.classList.add('menu-section-heading');
         subHeadingDiv.innerHTML = `${jsonContent[iter].heading}`;
-        mainContent.appendChild(subHeadingDiv);
+        sectionDiv.appendChild(subHeadingDiv);
 
         const sectionItems = jsonContent[iter].items;
 
@@ -57,8 +61,10 @@ function Menu() {
             itemPrice.innerHTML = `${sectionItems[subIter].price}`;
             menuItem.appendChild(itemPrice);
 
-            mainContent.appendChild(menuItem);
+            sectionDiv.appendChild(menuItem);
         }
+
+        mainContent.appendChild(sectionDiv);
     }
 
 

@@ -1,0 +1,23 @@
+{
+  title: "Slice Of Life",
+  content: {
+    statement: "At Slice of Life, we believe in serving more than just a slice of pizza; we're dedicated to delivering an authentic taste of New York with every bite. Our mission is to craft exceptional pizzas using the finest ingredients, traditional recipes, and a commitment to quality that reflects the bustling energy and diverse flavors of the city that never sleeps. From the first dough toss to the last savory slice, we aim to provide a memorable dining experience that captures the essence of New York's culinary culture, bringing people together one delicious pie at a time.",
+    specials: [
+      {
+        title: "The Brooklyn Classic",
+        desc: "A tribute to the borough that never sleeps! This pizza starts with a hand-tossed thin crust, topped with a rich tomato sauce made from San Marzano tomatoes and seasoned with oregano, garlic, and red pepper flakes. Generously layered with whole milk mozzarella cheese, sliced pepperoni, Italian sausage, and diced green bell peppers. Finished with a sprinkle of grated Parmigiano-Reggiano and a drizzle of extra virgin olive oil.",
+        price: "$24.99",
+      },
+      {
+        title: "Manhatten Margherita",
+        desc: "A timeless favorite with a New York twist! Begin with a crispy thin crust brushed with garlic-infused olive oil. Spread a layer of crushed San Marzano tomatoes seasoned with sea salt and fresh basil leaves. Arrange slices of fresh mozzarella cheese and heirloom tomatoes on top, then finish with a touch of grated Parmigiano-Reggiano and a chiffonade of basil. After baking, a drizzle of balsamic glaze adds a hint of sweetness to every bite.",
+        price: "$21.99",
+      },
+      {
+        title: "Queens Veggie Supreme",
+        desc: "For the veggie lovers out there! This pizza features a crispy thin crust coated with a savory marinara sauce made from vine-ripened tomatoes, garlic, and basil. Load it up with a colorful medley of sautéed vegetables such as zucchini, yellow squash, red onions, bell peppers, and mushrooms. Sprinkle on a blend of whole milk mozzarella and provolone cheeses, then finish with a sprinkle of fresh parsley and a dash of crushed red pepper flakes for a touch of heat.",
+        price: "$23.99",
+      },
+    ],
+  },
+}
