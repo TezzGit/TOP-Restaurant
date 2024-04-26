@@ -129,3 +129,32 @@ nav {
     grid-column: 2/3;
     justify-self: flex-end;
 }
+
+.section {
+    display: grid;
+    grid-template-rows: 30px repeat(1fr);
+    gap: 4px;
+}
+
+.menu-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 2px;
+}
+
+.item-name {
+    grid-row: 1/2;
+    font-weight: bold;
+}
+
+.item-desc {
+    grid-row: 2/3;
+    grid-column: 1/3;
+}
+
+.item-price {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: flex-end;
+}
