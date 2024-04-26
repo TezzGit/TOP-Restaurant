@@ -1,4 +1,5 @@
 import aboutData from "./about.json5"
+import syd_location from "./syd_location.jpeg"
 
 function About() {
 
@@ -40,6 +41,11 @@ function About() {
         locAdd.classList.add("address");
         locAdd.innerHTML = `${element.loc_add}`;
         location.appendChild(locAdd);
+
+        const locImage = new Image();
+        locImage.src = syd_location;
+        locImage.classList.add("loc-image");
+        location.appendChild(locImage);
 
         const locPhone = document.createElement("div");
         locPhone.classList.add("phone-numner");

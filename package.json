@@ -4,7 +4,8 @@
   "description": "The Odin Project - Utilising Webpack to Generate a Web Site",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "git_upload": "git subtree push --prefix dist origin gh-pages"
   },
   "author": "Daniel Terry",
   "license": "ISC",
